@@ -1,0 +1,128 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+    position: fixed ;
+    width: 100%;
+    height: 143px;
+    margin: 0;
+
+
+    .firstRow {
+        display: flex;
+        height: 75px;
+        align-items: center;
+        background-color: #D9D9D9;
+    }
+
+    .logo {
+        margin-right: auto;
+        margin-left: 105px;
+        width: 220px;
+        height: 44px;
+    }
+
+    .languages {
+        display: flex;
+        text-decoration: underline;
+        list-style-type: none;
+        font-size: 14px;
+        margin-right: 104px;
+        gap: 16px;
+        text-align: center;
+
+        a {
+            color: #595959;
+        }
+
+    }
+
+    .navbar {
+        display: flex;
+        background-color: #fff;
+        margin: 0;
+        height: 100%;
+        justify-content: center;
+        padding: 0 105px;
+
+        a {
+            flex-grow: 2;
+            text-decoration: none;
+            list-style-type: none;
+            border: 0.5px solid rgba(136, 135, 135, 0.4);
+            color: #000;
+
+            li {
+                font-size: 16px;
+                text-align: center;
+                padding: 11px 0;
+
+
+
+                .item-title {
+                    font-size: 16px;
+                    margin: 0;
+                    padding: 0;
+                }
+
+                p {
+                    font-size: 12px;
+                    margin: 0;
+                    padding: 0;
+                }
+            }
+        }
+
+    }
+}
+.videoPlaceholder{
+    position: relative;
+    margin-top: 132px;
+    width: 100%;
+    height: 705px;
+    z-index: -1;
+}
+
+.aboutCompany{
+    margin-top: 0;
+    width: 100%;
+    height: 647px;
+    padding-top: 70px;
+
+    img{
+
+        display: inline-block;
+        width: 50%;
+        height: 71%;
+    }
+
+    .aboutCompanyInfo{
+        display: inline-block;
+        width: 45%;
+        height: 100%;
+        padding-left: 55px;
+        position: absolute;
+
+        h1{
+            font-size: 43px;
+            color: #303030;
+        }
+        p{
+            color: #474747;
+        }
+    }
+}
+.poster{
+    width: 100%;
+
+    img{
+        width: 100%;
+    }
+}
+
+
