@@ -7,9 +7,7 @@ body {
 }
 
 header {
-  position: fixed;
   width: 100%;
-  height: 143px;
   margin: 0;
 }
 header .firstRow {
@@ -69,29 +67,25 @@ header .navbar a li p {
 
 .videoPlaceholder {
   position: relative;
-  margin-top: 132px;
   width: 100%;
   height: 705px;
   z-index: -1;
 }
 
 .aboutCompany {
-  margin-top: 0;
   width: 100%;
-  height: 647px;
-  padding-top: 70px;
+  margin: 70px auto;
 }
 .aboutCompany img {
   display: inline-block;
-  width: 50%;
+  width: 710px;
   height: 71%;
 }
 .aboutCompany .aboutCompanyInfo {
   display: inline-block;
-  width: 45%;
+  width: 40%;
   height: 100%;
   padding-left: 55px;
-  position: absolute;
 }
 .aboutCompany .aboutCompanyInfo h1 {
   font-size: 43px;
@@ -106,4 +100,9 @@ header .navbar a li p {
 }
 .poster img {
   width: 100%;
+}
+
+.layout {
+  margin-top: 75px;
+  display: flex;
 }/*# sourceMappingURL=styles.css.map */
